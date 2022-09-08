@@ -86,7 +86,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:background="@android:color/darker_gray"
-        app:layout_constraintBottom_toTopOf="@+id/cl_activity_main_times"
+        app:layout_constraintBottom_toTopOf="@+id/cl_activity_main_multiply"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@+id/cl_activity_main_9">
@@ -96,7 +96,7 @@
             style="@style/TextAppearance.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
+            android:text="÷"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -104,7 +104,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/cl_activity_main_times"
+        android:id="@+id/cl_activity_main_multiply"
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:layout_marginEnd="8dp"
@@ -120,7 +120,7 @@
             style="@style/TextAppearance.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="*"
+            android:text="×"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -133,11 +133,11 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:background="@android:color/darker_gray"
-        app:layout_constraintBottom_toBottomOf="@+id/cl_activity_main_times"
-        app:layout_constraintEnd_toStartOf="@+id/cl_activity_main_times"
+        app:layout_constraintBottom_toBottomOf="@+id/cl_activity_main_multiply"
+        app:layout_constraintEnd_toStartOf="@+id/cl_activity_main_multiply"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintStart_toEndOf="@+id/cl_activity_main_5"
-        app:layout_constraintTop_toTopOf="@+id/cl_activity_main_times">
+        app:layout_constraintTop_toTopOf="@+id/cl_activity_main_multiply">
 
         <TextView
             android:id="@+id/textView11"
@@ -241,7 +241,7 @@
             style="@style/TextAppearance.MaterialComponents.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"
+            android:text="−"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -303,11 +303,11 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:background="@android:color/darker_gray"
-        app:layout_constraintBottom_toBottomOf="@+id/cl_activity_main_clr"
+        app:layout_constraintBottom_toBottomOf="@+id/cl_activity_main_clear"
         app:layout_constraintEnd_toEndOf="@+id/cl_activity_main_2"
         app:layout_constraintHorizontal_weight="2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/cl_activity_main_clr">
+        app:layout_constraintTop_toTopOf="@+id/cl_activity_main_clear">
 
         <TextView
             android:id="@+id/textView2"
@@ -322,7 +322,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/cl_activity_main_clr"
+        android:id="@+id/cl_activity_main_clear"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
@@ -355,7 +355,7 @@
         app:layout_constraintBottom_toTopOf="@+id/cl_activity_main_equal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_weight="1"
-        app:layout_constraintStart_toEndOf="@+id/cl_activity_main_clr">
+        app:layout_constraintStart_toEndOf="@+id/cl_activity_main_clear">
 
         <TextView
             android:id="@+id/textView4"
@@ -408,7 +408,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView17"
+            android:id="@+id/tv_activity_main_result"
             style="@style/TextAppearance.MaterialComponents.Headline4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
