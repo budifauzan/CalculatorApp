@@ -2,28 +2,28 @@ package com.example.calculatorapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 
 class MainActivity : AppCompatActivity() {
 
-    var cl0: ConstraintLayout? = null
-    var cl1: ConstraintLayout? = null
-    var cl2: ConstraintLayout? = null
-    var cl3: ConstraintLayout? = null
-    var cl4: ConstraintLayout? = null
-    var cl5: ConstraintLayout? = null
-    var cl6: ConstraintLayout? = null
-    var cl7: ConstraintLayout? = null
-    var cl8: ConstraintLayout? = null
-    var cl9: ConstraintLayout? = null
-    var clPlus: ConstraintLayout? = null
-    var clMinus: ConstraintLayout? = null
-    var clMultiply: ConstraintLayout? = null
-    var clDivide: ConstraintLayout? = null
-    var clEqual: ConstraintLayout? = null
-    var clClear: ConstraintLayout? = null
-    var tvResult: TextView? = null
+    private var btn0: Button? = null
+    private var btn1: Button? = null
+    private var btn2: Button? = null
+    private var btn3: Button? = null
+    private var btn4: Button? = null
+    private var btn5: Button? = null
+    private var btn6: Button? = null
+    private var btn7: Button? = null
+    private var btn8: Button? = null
+    private var btn9: Button? = null
+    private var btnPlus: Button? = null
+    private var btnMinus: Button? = null
+    private var btnMultiply: Button? = null
+    private var btnDivide: Button? = null
+    private var btnClear: Button? = null
+    private var btnEqual: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,22 +32,21 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initializeView() {
-        cl0 = findViewById(R.id.cl_activity_main_0)
-        cl1 = findViewById(R.id.cl_activity_main_1)
-        cl2 = findViewById(R.id.cl_activity_main_2)
-        cl3 = findViewById(R.id.cl_activity_main_3)
-        cl4 = findViewById(R.id.cl_activity_main_4)
-        cl5 = findViewById(R.id.cl_activity_main_5)
-        cl6 = findViewById(R.id.cl_activity_main_6)
-        cl7 = findViewById(R.id.cl_activity_main_7)
-        cl8 = findViewById(R.id.cl_activity_main_8)
-        cl9 = findViewById(R.id.cl_activity_main_9)
-        clPlus = findViewById(R.id.cl_activity_main_plus)
-        clMinus = findViewById(R.id.cl_activity_main_minus)
-        clMultiply = findViewById(R.id.cl_activity_main_multiply)
-        clDivide = findViewById(R.id.cl_activity_main_divide)
-        clEqual = findViewById(R.id.cl_activity_main_equal)
-        clClear = findViewById(R.id.cl_activity_main_clear)
-        tvResult = findViewById(R.id.tv_activity_main_result)
+        btn0 = findViewById(R.id.btn_activity_main_0)
+        btn1 = findViewById(R.id.btn_activity_main_1)
+        btn2 = findViewById(R.id.btn_activity_main_2)
+        btn3 = findViewById(R.id.btn_activity_main_3)
+        btn4 = findViewById(R.id.btn_activity_main_4)
+        btn5 = findViewById(R.id.btn_activity_main_5)
+        btn6 = findViewById(R.id.btn_activity_main_6)
+        btn7 = findViewById(R.id.btn_activity_main_7)
+        btn8 = findViewById(R.id.btn_activity_main_8)
+        btn9 = findViewById(R.id.btn_activity_main_9)
+        btnPlus = findViewById(R.id.btn_activity_main_plus)
+        btnMinus = findViewById(R.id.btn_activity_main_minus)
+        btnMultiply = findViewById(R.id.btn_activity_main_multiply)
+        btnDivide = findViewById(R.id.btn_activity_main_divide)
+        btnClear = findViewById(R.id.btn_activity_main_clr)
+        btnEqual = findViewById(R.id.btn_activity_main_equal)
     }
 }
