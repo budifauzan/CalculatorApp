@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="4dp"
-        android:background="@color/light_gray"
+        android:background="#EDEDED"
         app:layout_constraintBottom_toTopOf="@+id/btn_activity_main_divide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/light_gray"
         android:text="@string/button_equal"
-        android:textColor="@color/black"
+        android:textColor="#455A64"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -57,7 +57,7 @@
         android:layout_height="80dp"
         android:backgroundTint="@color/light_gray"
         android:text="@string/button_plus"
-        android:textColor="@color/black"
+        android:textColor="#455A64"
         app:layout_constraintBottom_toTopOf="@+id/btn_activity_main_equal"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_main_equal"
         app:layout_constraintStart_toEndOf="@+id/btn_activity_main_clr" />
@@ -94,7 +94,7 @@
         android:layout_height="80dp"
         android:backgroundTint="@color/light_gray"
         android:text="@string/button_minus"
-        android:textColor="@color/black"
+        android:textColor="#455A64"
         app:layout_constraintBottom_toTopOf="@+id/btn_activity_main_plus"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_main_plus"
         app:layout_constraintStart_toEndOf="@+id/btn_activity_main_3" />
